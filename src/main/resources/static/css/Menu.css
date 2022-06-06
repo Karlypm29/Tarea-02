@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0; 
+}
+
+.header{
+    background-color: #660000;
+    height: 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 7vh;
+}
+
+.nav-menu{
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 7vh;
+}
+
+.nav-menu-item:hover{
+    background-color: #666666;
+    transition: 0.5s
+}
+
+.nav-menu-link{
+    padding: 20px 10px;
+    border-radius: 2px;
+}
+
+.Imagen{
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    height: 93%;
+    width: 100%;
+    background-color: #999999;
+    color: black;
+}
+
+.Imagen2{
+    position: fixed;
+    top: 7%;
+    left: 0%;
+    overflow: auto;
+}
+
+.Inicio{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 795px;
+    line-height: 9vh;
+}
+
+.Datos{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 720px;
+    line-height: 5vh;
+}
+
+.Espacio{
+    padding: 3% 38px;
+    line-height: 2vh;
+}
+
+.Espacio2{
+    margin: 0 5px;
+}
+
+.video{
+    height: 93%;
+    position: fixed;
+    top: 7%;
+    left: 0;
+    width: 100%
+}
+
+.Mapa{
+    background-color: #cccccc;
+    height: 93%;
+    position: fixed;
+    top: 7%;
+    left: 0;
+    width: 100%
+}
+
+.EspacioBuscar{
+    padding: 1% 70px;
+    line-height: 15vh;
+    margin-left: 50px;
+}
+
+a:hover {
+    text-decoration:underline;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tienda</title>
+        <meta charset="UTF-8">
+        <link href="css/Menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="nav-link logo">Tech Shop</a>
+            </nav>
+        </header>
+
+        <form class="Imagen" action="#">
+            <h2 class="Inicio">Registrarse</h2>
+            <br>
+            <nav class="Datos">
+                <label class="Espacio2">Correo</label><input type="text" name="email" placeholder="Digite el email"><br>
+                <label class="Espacio2">Digite la nueva contraseña</label><input type="password" name="password"><br>
+                <label class="Espacio2">Digite nuevamente la contraseña</label><input type="password" name="password"><br>
+                <label class="Espacio2">Fecha de Nacimiento </label><input type="date" name="date" min="2021-01-01" max="2023-12-31"><br>
+                <label class="Espacio2">Edad</label><input type="range" value="0" min="1" max="100" oninput="this.nextElementSibling.value = this.value">                <output>0</output><br>
+                <label class="Espacio2"></label> <input type="checkbox" id="checkbox"/>Terminos y condiciones<br>
+                <label class="Espacio2"></label><input type="submit" value="Registrarse"><br> 
+            </nav>
+        </form>
+    </body>
+</html>
